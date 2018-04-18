@@ -1,0 +1,770 @@
+/*---------------------------------- Portfolio CSS--------------------------- */
+.details_portfolio {
+	width: 700px;
+	float: left;
+}
+
+.details_portfolio .content_portfolio {
+	float: left;
+	height: auto;
+	margin: 0 0 20px 0;
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid #FF8000;
+}
+
+.details_portfolio .content_portfolio.last {
+	border-bottom: none;
+}
+
+.details_portfolio .content_portfolio .img_portfolio {
+	float: left;
+	padding: 0 20px 0 0;
+}
+
+.details_portfolio .content_portfolio .title_portfolio {
+	font-size: 15px;
+	font-weight: bold;
+	color: red;
+}
+
+.details_portfolio .content_portfolio .text_portfolio {
+	padding: 2px 0 0 0;
+	text-align: justify;
+}
+/*----------------------------------- Portfolio EndCSS ----------------------------- */
+
+/*---------------------------------- Highlight CSS--------------------------- */
+.details_highlights {
+	width: 700px;
+	float: left;
+}
+
+.details_highlights .content_highlights {
+	float: left;
+	height: auto;
+	margin: 0 0 20px 0;
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid #FF8000;
+}
+
+.details_highlights .content_highlights.last {
+	border-bottom: none;
+}
+
+.details_highlights .content_highlights .img_highlights {
+	float: left;
+	padding: 0 20px 0 0;
+}
+
+.details_highlights .content_highlights .title_highlights a {
+	font-size: 21px;
+	font-weight: bold;
+	color: #9E0000;
+	text-decoration: none;
+	text-shadow: 0 0 1px #aaa;
+}
+
+.details_highlights .content_highlights .text_highlights {
+	padding: 2px 0 0 0;
+	text-align: justify;
+}
+/*----------------------------------- Highlight EndCSS ----------------------------- */
+
+/*---------------------------------- About Us StartCSS--------------------------- */
+.details_aboutus {
+	width: 700px;
+	float: left;
+}
+
+.details_aboutus .content_aboutus {
+	margin: 0 0 20px 0;
+	padding: 0 0 50px 0;
+}
+
+.details_aboutus.content_aboutus .title_aboutus {
+	font-size: 15px;
+	font-weight: bold;
+	color: red;
+}
+
+.details_aboutus .content_aboutus .text_aboutus {
+	padding: 2px 0 0 0;
+	text-align: justify;
+}
+/*----------------------------------- About Us EndCSS ----------------------------- */
+
+/*---------------------------------- Publications StartCSS--------------------------- */
+.details_publications {
+	width: 700px;
+	float: left;
+}
+
+.details_publications .content_publications {
+	height: auto;
+	float: left;
+	margin: 0 0 20px 0;
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid #FF8000;
+}
+
+.details_publications .content_publications.last {
+	border-bottom: none;
+}
+
+.details_publications .content_publications .img_publications {
+	float: left;
+	padding: 0 20px 0 0;
+}
+
+.details_publications .content_publications .title_publications a {
+	font-size: 21px;
+	font-weight: bold;
+	color: #0031D0;
+	text-decoration: none;
+	text-shadow: 0 0 1px #aaa;
+}
+
+.details_publications .content_publications .text_publications {
+	padding: 2px 0 0 0;
+	text-align: justify;
+}
+/*----------------------------------- Publications EndCSS ----------------------------- */
+
+/*----------------------------------- Events StartCSS ------------------------------*/
+.events {
+	width: 700px;
+	float: left;
+}
+
+.events .content_events {
+	margin: 0 0 30px 0;
+	padding: 0 0 18px 0;
+	float: left;
+	width: 700px;
+	border-width: 1px;
+	border-color: #CCCCFF;
+	border-style: none solid solid solid;
+}
+
+.events .content_events .title_events {
+	height: auto; /* 28px */
+	background-color: #CCCCFF;
+	padding: 5px 0 0 10px;
+	font-size: 15px;
+}
+
+.events .content_events .details_events {
+	height: auto;
+	padding: 5px 0 0 10px;
+	font-size: 15px;
+	float: left;
+}
+
+.events .content_events .details_events .details_left_events {
+	text-align: justify;
+	width: 400px;
+	float: left;
+	padding: 0 10px 0 0;
+}
+
+.events .content_events .details_events .details_devide {
+	height: auto;
+	float: left;
+}
+
+.events .content_events .details_events .details_right_events {
+	width: 250px;
+	float: left;
+	padding: 0 0 0 10px;
+	border-left: 1px solid #FF8000;
+}
+
+/*------------------------------- Events EndCSS ----------------------------------*/
+
+/*---------------------------- Our Partners StartCSS --------------------------- */
+.left_ourpartners {
+	
+}
+
+.left_ourpartners .title {
+	line-height: 25px;
+	font-size: 17px;
+	text-align: justify;
+	color: #746522;
+}
+
+.left_ourpartners .contents {
+	padding: 15px 0 0 0;
+	text-align: justify;
+}
+
+.right_ourpartners {
+	width: 700px;
+	float: left;
+}
+
+.right_ourpartners .content_ourpartners {
+	margin: 0 0 30px 0;
+	padding: 0 0 18px 0;
+	border-bottom: 1px solid #FF8000;
+}
+
+.right_ourpartners .content_ourpartners .img_ourpartners {
+	float: left;
+	padding: 0 20px 0 0;
+}
+
+.right_ourpartners .content_ourpartners .title_ourpartners a {
+	font-size: 25px;
+	font-weight: bold;
+	color: rgb(7, 15, 233);
+	text-decoration: none
+}
+
+.right_ourpartners .content_ourpartners .text_ourpartners {
+	padding: 15px 0 0 0;
+	text-align: justify;
+}
+/*------------------------------ Our Partners EndCSS ---------------------------*/
+
+/*------------------------------ Contact Us StartCSS ----------------------------*/
+.details_contactus {
+	float: left;
+}
+
+.details_contactus .chinhthuc {
+	float: left;
+}
+
+.details_contactus .contents {
+	float: left;
+	width: 300px;
+}
+
+.details_contactus .map_contactus {
+	float: left;
+	width: 600px;
+}
+/*------------------------------------ Contact Us EndCSS -------------------------------*/
+
+/*------------------------------- Upcoming Events StartCSS ------------------------------*/
+.upcoming_events {
+	float: left;
+	text-align: justify;
+	border-bottom: 2px dotted #ccc;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+.upcoming_events .img {
+	float: left;
+	width: 200px;
+}
+
+.upcoming_events .contents {
+	float: left;
+	/* width: 500px; */
+	padding: 10px 0 0 10px;
+}
+
+.upcoming_events .contents .title_contents {
+	color: #1A6D00 !important; /*  !important thuoc tinh uu tien hang dau */
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0 0 10px 0;
+}
+
+.list_events {
+	width: 650px;
+	float: left;
+	padding: 5px 0 0 60px;
+}
+
+.list_ol {
+	margin: 0;
+	padding: 0;
+	list-style: square;
+}
+
+.list_ol li {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+/*------------------------------- Upcoming Events EndCSS ------------------------------*/
+
+/*------------------------------- Project Infomation StartCSS -------------------------*/
+.project_infomation {
+	float: left;
+	text-align: justify;
+	padding-bottom: 15px;
+}
+
+.project_infomation .img {
+	float: left;
+	width: 200px;
+}
+
+.project_infomation .contents {
+	float: left;
+	/* width: 500px; */
+	padding: 10px 0 0 10px;
+}
+
+.project_infomation .contents .title_contents {
+	color: #1A6D00 !important; /*  !important thuoc tinh uu tien hang dau */
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0 0 10px 0;
+}
+/*------------------------------- Project Infomation EndCSS ------------------------*/
+
+/*------------------------------- Photo Albums StartCSS ---------------------------*/
+/*left Footer page */
+.photo_album {
+	float: right;
+	width: 210px;
+	margin: 0 100px 0 0;
+}
+
+.photo_album a {
+	color: #746522;
+	text-decoration: none;
+}
+
+.photo_album h4 {
+	color: #746522;
+	font-size: 26px;
+	margin-bottom: 20px
+}
+
+table#table_ha {
+	width: 100%;
+	margin-top: 10px;
+}
+
+table#table_ha tr td {
+	width: 50%;
+	padding-bottom: 5px;
+	vertical-align: top;
+}
+
+/* Page Photo Albums  */
+.div_gallery {
+	float: left;
+	width: 700px;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+.div_gallery .title_gallery {
+	color: #00416d;
+	height: 32px;
+	background: url(../images/headertext_photo.png) no-repeat;
+	padding: 5px 0 0 20px;
+	font-weight: bold;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.div_gallery .photo_gallery {
+	float: left;
+	width: 700px;
+}
+
+ul.ulphoto {
+	display: block;
+	margin-top: 15px;
+	padding: 0 0 0 0;
+}
+
+ul.ulphoto li {
+	display: inline;
+	float: left;
+	width: 206px;
+}
+
+ul.ulphoto li.licenter {
+	padding: 0px 34px 0px 34px;
+}
+
+img.imgpic {
+	width: 200px;
+	height: 135px;
+	border: 1px silver solid;
+	padding: 2px;
+}
+/*------------------------------- Photo Albums EndCSS --------------------------*/
+
+/*------------------------------- Bullet List Accordion Menu StartCSS --------------------------*/
+.urbangreymenu {
+	width: 190px; /*width of menu*/
+}
+
+.urbangreymenu .headerbar.aboutus {
+	font: bold 13px Verdana;
+	color: white;
+	background: #606060;
+	/*last 2 values are the x and y coordinates of bullet image*/
+	margin-bottom: 0; /*bottom spacing between header and rest of content*/
+	text-transform: uppercase;
+	padding: 7px 0 7px 31px; /*31px is left indentation of header text*/
+}
+
+.urbangreymenu .headerbar {
+	font: bold 13px Verdana;
+	color: white;
+	background: #606060 url(../images/arrowstop.gif) no-repeat 8px 6px;
+	/*last 2 values are the x and y coordinates of bullet image*/
+	margin-bottom: 0; /*bottom spacing between header and rest of content*/
+	text-transform: uppercase;
+	padding: 7px 0 7px 31px; /*31px is left indentation of header text*/
+}
+
+.urbangreymenu .headerbar a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+.urbangreymenu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 0;
+	/*bottom spacing between each UL and rest of content*/
+}
+
+.urbangreymenu ul li {
+	padding-bottom: 2px; /*bottom spacing between menu items*/
+}
+
+.urbangreymenu ul li a {
+	font: normal 12px Arial;
+	color: black;
+	background: #E9E9E9;
+	display: block;
+	padding: 5px 0;
+	line-height: 17px;
+	padding-left: 28px; /*link text is indented 8px*/
+	text-decoration: none;
+}
+
+.urbangreymenu ul li a:visited {
+	color: black;
+}
+
+.urbangreymenu ul li a:hover { /*hover state CSS*/
+	color: white;
+	background: black;
+}
+
+/*------------------------------- Bullet List Accordion Menu EndCSS --------------------------*/
+
+/*------------------------------- Staff StartCSS --------------------------*/
+.staff_div {
+	width: 700px;
+	float: left;
+}
+
+.staff_div .staff_detail {
+	float: left;
+	width: 700px;
+	padding: 15px 0 15px 0;
+	border-bottom: 1px solid #FF8000;
+}
+
+.staff_div .staff_detail.last {
+	float: left;
+	width: 700px;
+	padding: 15px 0 15px 0;
+	border-bottom: none;
+}
+
+.staff_div .staff_detail .staff_contents {
+	float: left;
+	width: 520px;
+	text-align: justify;
+	padding: 0 10px 0 0;
+}
+
+.staff_div .staff_detail .staff_img {
+	float: left;
+	width: 170px;
+}
+
+/*------------------------------- Staff EndCSS --------------------------*/
+
+/*------------------------------- WorkPlan StartCSS ------------------------*/
+#contetn_main {
+	width: 692px;
+	float: left;
+}
+
+table.table_results {
+	text-decoration: none;
+	width: 100%;
+	/* margin-top: 10px; */
+	background-color: antiquewhite;
+	border-spacing: 1px;
+}
+
+table.table_results tbody tr td {
+	/* background: url('../Images/common/img_bgtr.jpg') no-repeat; */
+	/* background-position: 0px bottom; */
+	/* border-bottom:1px solid #FF8000; */
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FF8000 #FF8000 #FF8000 #FF8000;
+}
+
+table.table_results thead tr {
+	/* background: url('../Images/common/img_bghead_khhd.jpg') no-repeat; */
+	height: 55px;
+	line-height: 28px;
+	text-align: center;
+	background-color: rgb(255, 186, 6);;
+}
+
+table.table_results thead tr td.td1 {
+	width: 5%;
+}
+
+span.spanheader {
+	font-weight: bold;
+}
+
+table.table_results thead tr td.td2 {
+	width: 30%;
+}
+
+table.table_results thead tr td.td3 {
+	width: 30%;
+}
+
+table.table_results thead tr td.td4 {
+	width: 20%;
+}
+
+table.table_results thead tr td.td5 {
+	width: 15%;
+}
+
+span.h2title_results {
+	font-weight: bold;
+	/* color: #165a87; */
+	cursor: pointer;
+	text-align: justify;
+	padding-right: 10px;
+	padding-left: 20px;
+}
+
+span.h2title_results:hover {
+	color: #1f5d00;
+}
+
+.menu_body {
+	display: none;
+}
+
+table.table_results tbody tr td.td1 {
+	width: 5%;
+	text-align: center;
+}
+
+table.table_results tbody tr td.td2 {
+	width: 30%;
+}
+
+table.table_results tbody tr td.td3 {
+	width: 30%;
+}
+
+table.table_results tbody tr td.td4 {
+	width: 14%;
+}
+
+table.table_results tbody tr td.td5 {
+	width: 15%;
+}
+
+table.table_results tbody tr td {
+	vertical-align: top;
+	padding: 15px 5px 15px 5px;
+}
+
+table.table_results_content {
+	width: 100%;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+/*-------------- tieu de cua tung muc  -----------------------*/
+#divcthd {
+	/* 	background: #AF8585 url('../Images/common/img_bgdivcthd.jpg') repeat-x; */
+	background-color: #F2D67D;
+}
+
+table.table_results_content tr td.td1 {
+	text-align: justify;
+	width: 5%;
+}
+
+table.table_results_content tr td.td6 {
+	text-align: justify;
+	vertical-align: middle;
+	width: 70%;
+	height: 47px;
+	min-height: 47px;
+	padding-right: 5px;
+}
+
+table.table_results_content tr td.td7 {
+	width: 15%;
+}
+
+table.table_results_content  tr.trtitile {
+	/* background: none; */
+	
+}
+/*-------------- tieu de cua tung muc End -----------------------*/
+
+/*------------------------------- WorkPlan EndCSS --------------------------*/
+span.date {
+	color: #696969;
+	font-style: italic;
+	font-weight: normal;
+	padding-left: 15px;
+}
+
+/*------------------------------- XemNoiDung StartCSS --------------------------*/
+.chitiet_tintuc {
+	text-align: justify;
+	padding: 20px 0 0 0;
+}
+
+.chitiet_tintuc .tieude_tintuc {
+	font-size: 25px;
+	font-weight: bold;
+	color: #9E0000;
+	text-decoration: none;
+	text-shadow: 0 0 1px #aaa;
+}
+
+.chitiet_tintuc .tieude_tintuc span {
+	font-size: 15px;
+	font-weight: normal;
+	color: #111111;
+	text-shadow: none;
+}
+
+.chitiet_tintuc .tomtat_tintuc {
+	padding: 10px 0 0 0;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.chitiet_tintuc .noidung_tintuc {
+	padding: 20px 0 0 0;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.tinkhac {
+	padding: 30px 0 0 0;
+	font-size: 20px;
+	font-weight: bold;
+	color: #9E0000;
+	text-decoration: none;
+	text-shadow: 0 0 1px #aaa;
+}
+
+.tinkhac_publications {
+	padding: 30px 0 0 0;
+	font-size: 20px;
+	font-weight: bold;
+	color: #0031D0;
+	text-decoration: none;
+	text-shadow: 0 0 1px #aaa;
+}
+
+/*------------------------------- XemNoiDung EndCSS --------------------------*/
+
+/*------------------------------- Nut Back trang tin StartCSS --------------------------*/
+.divquaylai {
+	padding: 10px 0 0 0;
+}
+
+.divquaylai a {
+	width: 10%;
+	text-align: center;
+	float: right;
+	color: white;
+}
+
+.buttonQuayLai {
+	-moz-box-shadow: 0px 10px 14px -7px #276873;
+	-webkit-box-shadow: 0px 10px 14px -7px #276873;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background-color: #2a8cb0;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 4px 0px;
+	text-decoration: none;
+}
+
+.buttonQuayLai:hover {
+	color: #ffffff;
+	background-color: #2b626b;
+}
+
+.buttonQuayLai:active {
+	position: relative;
+	top: 1px;
+}
+/*------------------------------- Nut Back trang tin EndCSS --------------------------*/
+
+/*------------------------------- Hien 10 tin trang chu Highlight left StartCSS -------*/
+.div_highlights {
+	text-align: justify;
+	padding: 0 0 10px 0;
+}
+
+.div_highlights p {
+	margin: 12px 12px 0 0;
+	font-size: 15px;
+}
+
+/*------------------------------- Hien 10 tin trang chu Highlight left EndCSS ---------*/
+
+/* ---------------Footer Social Link--------------- */
+ul
+{
+    list-style-type: none;
+}
+ ul li
+{
+    margin: 0px;
+}    
+
+.img_social
+{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+}
+
+ul li p 
+{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 0 ;
+}
+
+/* ---------------Footer Social Link END--------------- */

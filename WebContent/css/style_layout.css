@@ -1,0 +1,90 @@
+#header {
+	height: auto;
+	/* background-color: #F5F5F5; */
+	border: 0px;
+	margin-bottom: 0px;
+}
+
+#header_banner { 
+	height: auto;
+	border: 0px;
+	margin-bottom: 0px;
+}
+
+#left {
+	width: 220px;
+	border: 0px solid #CDCDCD;
+	float: left;
+	/* background-color: #004C00; */
+	margin-bottom: 5px;
+	/* border-right: 2px dotted #ccc; */
+}
+
+#content {
+	margin: 0px 0 0 0;
+	/* background: #fff; */
+	overflow: hidden;
+	/*   position:relative; */ /*thuoc tin nam tren tat ca */
+	z-index: 1;
+	/* background-color: #F8F8FF; */
+	margin-bottom: 5px;
+
+}
+
+#container {
+	width: 710px;
+	border: 0px solid #CDCDCD;
+	float: left;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	/* background-color: #F8F8FF; */
+	padding-left: 30px;
+	border-left: 2px dotted #ccc; 
+}
+
+#container_contactus{
+	width: 950px;
+	border: 0px solid #CDCDCD;
+	float: left;
+	margin: 5px 0 5px 0;
+	background-color: #F8F8FF;
+	padding-left: 30px;
+}
+
+#right {
+	width: 320px;
+	border: 0px solid #CDCDCD;
+	float: right;
+	margin-bottom: 5px;
+	background-color: #F8F8FF;
+}
+
+#footer {
+	clear: both;
+	height: auto;
+	border: 0px solid #CDCDCD;
+	background-color: #F8F8FF;
+}
+
+/*------------------------------------ Page About Us ---------------------- */
+#container_aboutus {
+	width: 692px;
+	border: 0px solid #CDCDCD;
+	float: left;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	background-color: #F8F8FF;
+	padding-left: 30px;
+}
+
+#left_aboutus {
+	width: 260px;
+	border: 0px solid #CDCDCD;
+	float: left;
+	/* background-color: #004C00; */
+	margin-bottom: 5px;
+	border-right: 2px dotted #ccc;
+}
+/*------------------------------------End Page About Us ---------------------- */

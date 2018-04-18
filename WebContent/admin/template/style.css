@@ -1,0 +1,327 @@
+
+*{margin:0;padding:0;outline:0;}
+h1{font-size:15px;}h2{font-size:14px;}h3{font-size:13px;}h4{font-size:12px;}h5{font-size:11px;}h6{font-size:12px; font-weight:normal;}img{border:0;}ul{list-style:none;}p{padding:5px 0;}
+body{font:normal 14px Tahoma, Geneva, sans-serif;background:#fff url(../images/bg.jpg) repeat-x top center;}
+#wrapper{width:1000px; margin:0 auto;}
+
+/******************** BEGIN HEADER ********************/
+#header{height:118px;}
+.banner{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	height:75px; position:relative;}
+.logo{position:absolute;left:0;top:11px;}
+.flash{
+	position:absolute;
+	width:768px;
+	height:41px;
+	top:17px;
+	right:0;
+}
+.menu{}
+
+
+.info{float:right; color:#fff;}
+.info a{color:#fff; text-decoration:none;}
+.info a:hover{text-decoration:underline;}
+/******************** END HEADER ********************/
+
+/******************** BEGIN CONTENT ********************/
+
+
+
+.title{
+	margin-top:5px;
+	height:36px;
+	line-height:36px;
+	position:relative;
+	border:1px solid #eee;
+	background:url(../images/title_bg.jpg) repeat-x;
+}
+.text_title{text-indent:10px;text-transform:uppercase;color:#01b2e4;}
+.title_l, .title_r{
+	position:absolute;
+	background:url(../images/icon_title.png) no-repeat;
+	width:6px;
+	height:25px;
+	top:-16px;	
+}
+.title_l{left:3px;}
+.title_r{right:3px;}
+.search{position:relative; top:-31px;}
+.timkiem{
+	border:1px solid #eee;
+	height:24px;
+	line-height:24px;
+	width:186px;	
+	background:#fff;
+	text-indent:5px;
+	position:absolute;
+	right:410px;
+	color:#b8b8b8;
+}
+.icon_search{position:absolute;right:284px;}
+.bg_cbo{
+	position:absolute;
+	background:#fff;
+	width:87px;
+	border:1px solid #eee;
+	height:24px;
+	right:316px;
+}
+.bg_cbo_2{
+	position:absolute;
+	background:#fff;
+	width:187px;
+	border:1px solid #eee;
+	height:24px;
+	right:90px;
+}
+.dichuyen{
+	position:absolute;
+	width:70px;
+	height:26px;
+	right:15px;
+}
+.danhmuc{
+	color:#b8b8b8;
+	border:none;
+	background:none;
+	width:83px;
+	position:absolute;
+	top:3px;
+	right:3px;
+}
+.danhmuc2{
+	color:#b8b8b8;
+	border:none;
+	background:none;
+	width:183px;
+	position:absolute;
+	top:3px;
+	right:3px;
+}
+.button1{padding: 5px; background:url(../images/buttom_bg.jpg); border:0; cursor:pointer; color:#FFFFFF}
+.button1:hover{ background:#CA2525}
+.main_content{margin-top:5px; border:1px solid #01afdf; border-top:3px solid #01afdf;}
+.main_table a{text-decoration:none;}
+.main_table a:hover{color:#01afdf;}
+.main_table tr.title_main1:hover, .main_table tr.title_main2:hover{background:#FFD;}
+.main_table tr.title_table{text-align:center; background:url(../images/tr_bg.jpg) repeat-x; height:33px; line-height:33px; font-weight:bold;}
+.main_table tr.title_main1, .main_table tr.title_main2{height:30px; text-align:center; font-size:12px;}
+.main_table tr.title_main2{background:#f9f9f9;}
+.tieude{padding:3px; text-align:justify;}
+.main_table tr.title_main1 td, .main_table tr.title_main2 td{border-bottom:1px solid #e7e7e7;}
+.main_table tr td{border-right:1px solid #e7e7e7;}
+.main_bottom{background:url(../images/main_bottom_bg.jpg) repeat-x; height:39px; line-height:39px;}
+.main_bottom h6{text-indent:5px; float:left;}
+.buttom{float:right; padding-right:5px;}
+.buttom h6{background:url(../images/buttom_bg.jpg) repeat-x; height:27px; line-height:27px;border:3px solid #86d0e5; margin:3px 0 0 5px; padding:0 5px;}
+.buttom h6 a{color:#fff;}
+.buttom h6 a:hover{color:#FF0; text-decoration:none;}
+.main_bottom a{text-decoration:none; color:#999;}
+.main_bottom a:hover{color:#01afdf; text-decoration:underline;}
+/******************** END CONTENT ********************/
+
+/******************** BEGIN FOOTER ********************/
+#footer{height:63px;background:#f4f4f4 url(../images/footer_bg.jpg) repeat-x;}
+.main_footer{width:1000px; margin:0 auto; text-align:center; padding-top:20px; margin-top:113px;}
+/******************** END FOOTER ********************/
+.clear{clear:both;}
+
+.textbox
+{
+font-family: Tahoma; 
+font-size: 11.5pt; 
+color: #000000;
+}
+
+.smallfont
+{
+font-family: Tahoma; 
+font-size: 8.5pt; 
+color: #000000;
+}
+
+.smallfontbold
+{
+font-family: Tahoma; 
+font-size: 8.5pt; 
+color: #ED008C;
+font-weight: bold;
+}
+
+.midfont
+{
+font-family: Tahoma; 
+font-size: 10pt; 
+color: #ED008C;
+}
+
+.midfontbold
+{
+font-family: Tahoma; 
+font-size: 10pt; 
+color: #ED008C;
+font-weight: bold;
+}
+
+A:hover {
+	TEXT-DECORATION: none; font-family:Tahoma}
+A:link {
+	FONT-FAMILY: Tahoma; TEXT-DECORATION: none; 
+}
+A {
+	FONT-FAMILY: Tahoma; TEXT-DECORATION: none;
+	color: #006AAA;
+}
+
+.normalfont
+{
+background-color:#FFFFFF;
+font-family: Tahoma; 
+font-size: 8.5pt; 
+color: #006AAA;
+font-weight: bold;
+}
+
+.button
+{
+background-color:#006AAA;
+font-family: Tahoma; 
+font-size: 8.5pt; 
+color: #FFFFFF;
+border-style: solid; 
+border-width: 1px;
+}
+
+.title
+{
+background-color:#006AAA;
+font-family: Tahoma; 
+font-size: 8.5pt; 
+color: #FFFFFF;
+font-weight: bold;
+}
+
+.err
+{
+font-family: Tahoma; 
+font-size: 8.5pt; 
+color: #FF0000;
+}
+
+.midtitle
+{
+background-color:#006AAA;
+font-family: Tahoma; 
+font-size: 12pt; 
+color: #FFFFFF;
+font-weight: bold;
+}
+.wrap-navi {
+	POSITION: relative; MARGIN-BOTTOM: 5px; height:30px;
+}
+#navigation {
+	WIDTH: 780px
+}
+#navigation LI {
+	POSITION: relative; FLOAT: left; MARGIN-RIGHT: 4px
+}
+#navigation LI A {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 0px; WIDTH: auto; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: #e7e7e8; HEIGHT: 25px; COLOR: #fff; PADDING-TOP: 10px
+}
+#navigation LI.first A {
+	BACKGROUND: #000
+}
+#navigation LI.last {
+	MARGIN-RIGHT: 0px
+}
+#navigation #nav-home A {
+	POSITION: relative; WIDTH: 72px
+}
+
+.clearfix{ list-style:none}
+td{ padding:5px}
+
+
+/************************bac cao thong ke **********************/
+.list-row {
+    width:auto;
+    padding:10px;
+    margin: 0 auto;
+}
+.list-tieude {
+    padding:10px;
+}
+
+.list-noidung {
+    top:0px;
+    left:60px;
+    padding:10px;
+   
+}
+.list-canh {
+    font-size:18px;
+    padding:8px;
+
+}
+
+/*================== Quan Ly Banner Start=======================*/
+.text_banner {
+	width: 50%;
+
+}
+
+.textarea_banner {
+	width: 80%;
+}
+
+.text_pos {
+	width: 3%;
+}
+
+
+.thongtin_banner{
+	line-height: 12px;
+	vertical-align: top;
+	padding: 10px 0 10px 30px;
+}
+
+.savebutton {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+		.savebutton:hover {
+		   border-top-color: #28597a;
+		   background: #28597a;
+		   color: #ffffff;
+		   }
+		.savebutton:active {
+		   border-top-color: #1b435e;
+		   background: #1b435e;
+		   }
+		   
+		   
+
+/*================== Quan Ly Banner End=======================*/
+

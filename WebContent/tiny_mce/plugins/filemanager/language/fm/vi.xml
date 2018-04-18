@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language-pack>
+	<header>
+		<author>Moxiecode Systems AB</author>
+		<version minor="2" major="0" releasedate="2005-10-28" />
+		<description>
+			D�y l� g�i ti?ng vi?t cho tr�nh qu?n l� t?p tin.
+		</description>
+	</header>
+
+	<language code="vi" title="Vietnam" dir="ltr">
+		<group target="error">
+			<item name="tofile_exists">T?p tin d� t?n t?i.</item>
+			<item name="no_from_file">T? t?p tin kh�ng t?n t?i.</item>
+			<item name="demo">H�nh d?ng n�y b? h?n ch? trong ch? d? demo.</item>
+			<item name="invalid_filename">T�n t?p tin kh�ng h?p l?.</item>
+			<item name="no_read_access">Kh�ng th? d?c t?p tin/thu m?c n�y.</item>
+			<item name="no_write_access">Kh�ng th? ghi l�n t?p tin/thu m?c n�y.</item>
+			<item name="copy_failed">Sao ch�p b? l?i.</item>
+			<item name="move_failed">Di chuy?n b? l?i.</item>
+			<item name="template_missing">Khu�n m?u kh�ng t�m th?y.</item>
+			<item name="createdoc_failed">T?o t�i li?u b? l?i.</item>
+			<item name="no_access">You do not have access to perform this operation.</item>
+			<item name="file_exists">T?p tin d� t?n t?i.</item>
+			<item name="upload_failed">Upload failed, check your folder write permissions.</item>
+			<item name="error_to_large">File max size was reached.</item>
+			<item name="file_not_exists">T?p tin kh�ng t?n t?i.</item>
+			<item name="delete_failed">X�a b? l?i.</item>
+			<item name="folder_exists">Thu m?c d� t?n t?i.</item>
+			<item name="no_filesystem">Kh�ng c� t?p tin h? th?ng n�o du?c t�m th?y.</item>
+			<item name="createdir_failed">T?o thu m?c b? l?i.</item>
+			<item name="createzip_failed">T?o t?p tin n�n b? l?i.</item>
+			<item name="rename_failed">D?i t�n b? l?i.</item>
+			<item name="savecontent_failed">Luu n?i dung b? l?i.</item>
+		</group>
+
+		<group target="message">
+			<item name="zip_success">N�n th�nh c�ng.</item>
+			<item name="copy_success">Sao ch�p th�nh c�ng.</item>
+			<item name="move_success">Di chuy?n th�nh c�ng.</item>
+			<item name="createdoc_success">T�i li?u du?c t?o th�nh c�ng.</item>
+			<item name="delete_success">X�a th�nh c�ng.</item>
+			<item name="directory_ok">Thu m?c du?c t?o th�nh c�ng.</item>
+			<item name="keepalive">Gi? t?n t?i</item>
+			<item name="upload_ok">T?i l�n th�nh c�ng.</item>
+			<item name="confirm_cut">B?n ch?c ch?n mu?n c?t c�c t?p tin du?c ch?n?</item>
+			<item name="confirm_copy">B?n ch?c ch?n mu?n sao ch�p c�c t?p tin du?c ch?n?</item>
+			<item name="confirm_paste">B?n ch?c ch?n mu?n d�n c�c t?p tin du?c c?t/sao ch�p ? d�y?</item>
+			<item name="confirm_delete">B?n ch?c ch?n mu?n x�a c�c t?p tin du?c ch?n?</item>
+			<item name="insert">Dang l?y d? li?u t?p tin, xin vui l�ng ch?...</item>
+			<item name="paste_in_progress">Thao t�c d�n dang x? l�, xin vui l�ng ch?...</item>
+		</group>
+
+		<group target="common">
+			<item name="createdir">T?o thu m?c</item>
+			<item name="createfile">T?p tin m?i</item>
+			<item name="help">Tr? gi�p</item>
+			<item name="refresh">L�m m?i</item>
+			<item name="upload">T?i l�n</item>
+			<item name="directory">Thu m?c du?c ch?n</item>
+			<item name="imagemanager">Qu?n l� ?nh</item>
+			<item name="title">Tr�nh qu?n l� t?p tin</item>
+			<item name="alert_ok">Ch?p nh?n</item>
+			<item name="confirm_yes">D?ng �</item>
+			<item name="confirm_no">kh�ng</item>
+		</group>
+
+		<group target="button">
+			<item name="create">T?o</item>
+			<item name="cancel">H?y</item>
+			<item name="save">Luu</item>
+		</group>
+
+		<group target="panel">
+			<item name="categories">Danh m?c</item>
+			<item name="preview">Xem tru?c</item>
+
+			<!-- Legacy items -->
+			<item name="favorites">Y�u th�ch</item>
+			<item name="history">L?ch s?</item>
+		</group>
+
+		<group target="edit">
+			<item name="title">S?a t?p tin</item>
+			<item name="description">S?a n?i dung c?a t?p tin.</item>
+			<item name="loading_wait">Dang t?i n?i dung xin vui l�ng ch?.</item>
+			<item name="saving_wait">Dang luu n?i dung xin vui l�ng ch?.</item>
+			<item name="file_path">Du?ng d?n t?p tin:</item>
+		</group>
+
+		<group target="actions">
+			<item name="insert">Ch�n</item>
+			<item name="download">T?i v?</item>
+			<item name="rename">D?i t�n</item>
+			<item name="cut">C?t</item>
+			<item name="copy">Sao ch�p</item>
+			<item name="paste">D�n</item>
+			<item name="deleteit">X�a</item>
+			<item name="edit">S?a</item>
+			<item name="zip">N�n</item>
+			<item name="view">Xem</item>
+			<item name="select_all">Ch?n to�n b?</item>
+			<item name="unselect_all">B? ch?n to�n b?</item>
+
+			<!-- Legacy items -->
+			<item name="addfavorites">Th�m m?c y�u th�ch</item>
+			<item name="removefavorites">X�a m?c y�u th�ch</item>
+		</group>
+
+		<group target="filelist">
+			<item name="filename">T�n t?p tin</item>
+			<item name="size">C?</item>
+			<item name="type">Ki?u</item>
+			<item name="modified">Ch?nh s?a</item>
+			<item name="with_selected">V?i du?c ch?n:</item>
+			<item name="info_dirs">C�c thu m?c:</item>
+			<item name="info_files">C�c t?p tin:</item>
+			<item name="info_size">T?ng c? t?p tin:</item>
+			<item name="info_access">Truy c?p:</item>
+			<item name="loading">Dang t?i...</item>
+		</group>
+
+		<group target="createdir">
+			<item name="title">T?o thu m?c</item>
+			<item name="description">Nh?p t�n cho thu m?c m� b?n mu?n t?o.</item>
+			<item name="template">Khu�n m?u:</item>
+			<item name="select_template">-- Ch?n khu�n m?u --</item>
+			<item name="directory_name">T�n thu m?c:</item>
+			<item name="create_in">T?o trong:</item>
+			<item name="progress">Dang t?o thu m?c, xin vui l�ng ch?...</item>
+		</group>
+
+		<group target="createdoc">
+			<item name="title">T?o t�i li?u</item>
+			<item name="description">Di?n v�o m?u d? t?o t�i li?u m?i t? khu�n m?u.</item>
+			<item name="template">Khu�n m?u:</item>
+			<item name="select_template">-- Ch?n khu�n m?u --</item>
+			<item name="name">T�n</item>
+			<item name="path">Du?ng d?n</item>
+			<item name="preview">Xem tru?c</item>
+			<item name="preview_title">Xem tru?c c?a: {file}</item>
+		</group>
+
+		<group target="upload">
+			<item name="title">T?i l�n</item>
+			<item name="description">S? d?ng m?u d? t?i l�n c�c t?p tin.</item>
+			<item name="valid_extensions">C�c m? r?ng h?p l?:</item>
+			<item name="max_upload_size">C? t?i l�n l?n nh?t:</item>
+			<item name="file_to_upload">T?p tin d? t?i l�n:</item>
+			<item name="as_file_name">L� t�n t?p tin:</item>
+			<item name="path">Du?ng d?n: </item>
+			<item name="button_upload">T?i l�n</item>
+			<item name="browse">B? sung c�c t?p tin</item>
+			<item name="progress">Dang t?i l�n...</item>
+			<item name="upload_warn">C�c t?p tin dang du?c t?i l�n, b?n ch?c ch?n mu?n h?y vi?c t?i l�n?</item>
+			<item name="statusrow">B?n c� {files} c�c t?p tin (total {size}) dang ch? d? du?c t?i l�n.</item>
+			<item name="progressinfo">{loaded} c?a {total} du?c t?i l�n ? {speed}/s.</item>
+			<item name="abort">H?y t?i l�n</item>
+			<item name="add_more">B? sung th�m?</item>
+			<item name="upload_to_server">T?i l�n m�y ch?</item>
+			<item name="cancelled">T?i l�n b? h?y</item>
+			<item name="choose_files">Ch?n c�c t?p tin</item>
+			<item name="basic_upload">N?u b?n c� v?n d? v?i vi?c t?i l�n b?n c� th? s? d?ng {a} tr�nh t?i co b?n {/a}.</item>
+			<item name="remove">X�a</item>
+			<item name="file">T?p tin</item>
+			<item name="size">C?</item>
+			<item name="status">Tr?ng th�i</item>
+			<item name="no_valid_files">Kh�ng c� t?p tin h?p l? du?c ch?n, vui l�ng th? l?i.</item>
+		</group>
+
+		<group target="createzip">
+			<item name="title">T?o t?p tin n�n</item>
+			<item name="description">Nh?p t�n c?a t?p tin n�n m� b?n mu?n t?o.</item>
+			<item name="name">T�n:</item>
+			<item name="path">Du?ng d?n</item>
+		</group>
+
+		<group target="tinymce">
+			<item name="insertfile_desc">Ch�n t?p tin</item>	
+		</group>
+
+		<group target="favorites">
+			<item name="special_folder_title">Y�u th�ch</item>
+			<item name="addfavorites">Th�m m?c y�u th�ch</item>
+			<item name="removefavorites">B? m?c y�u th�ch</item>
+			<item name="confirm_remove_favorite">B?n ch?c ch?n mu?n x�a m?c n�y t? danh s�ch y�u th�ch c?a b?n?</item>
+			<item name="remove_favorite_failed">L?i x�a m?c y�u th�ch t? danh s�ch y�u th�ch c?a b?n.</item>
+		</group>
+
+		<group target="history">
+			<item name="special_folder_title">L?ch s?</item>
+		</group>
+	</language>
+</language-pack>

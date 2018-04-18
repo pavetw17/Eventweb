@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+	       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	<definition name="Page" template="/template/template.jsp">
+		<put-attribute name="title" value="Page" />
+		<put-attribute name="header" value="/page/header.jsp" />
+		<put-attribute name="header_banner" value="/page/header_banner.jsp" />
+		<put-attribute name="left" value="/page/left.jsp" />
+		<put-attribute name="content" value="/page/Content1.jsp" />
+		<put-attribute name="footer" value="/page/footer.jsp" />
+	</definition>
+	<definition name="TrangChu" extends="Page">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="content" value="/module/trangchu.jsp" />
+	</definition>
+	<definition name="TrangPortfolio" template="/template/template_Portfolio.jsp">
+		<put-attribute name="title" value="Portfolio" />
+		<put-attribute name="header" value="/page/header.jsp" />
+		<put-attribute name="left" value="/page/left_Portfolio.jsp" />
+		<put-attribute name="content" value="/module/trangPortfolio.jsp" />
+		<put-attribute name="footer" value="/page/footer.jsp" />
+	</definition>
+	<definition name="TrangEvents" extends="TrangPortfolio">
+		<put-attribute name="title" value="Events" />
+		<put-attribute name="left" value="/page/left_Events.jsp" />
+		<put-attribute name="content" value="/module/trangEvents.jsp" />
+	</definition>
+	<definition name="TrangContactUs" template="/template/template_ContactUs.jsp">
+		<put-attribute name="title" value="Contact Us" />
+		<put-attribute name="header" value="/page/header.jsp" />
+		<put-attribute name="content" value="/module/trangContactUs.jsp" />
+		<put-attribute name="footer" value="/page/footer.jsp" />
+	</definition>
+	<definition name="TrangCapNhatHeThong" template="/template/template_ContactUs.jsp">
+		<put-attribute name="title" value="Response System" />
+		<put-attribute name="header" value="/page/header.jsp" />
+		<put-attribute name="content" value="/module/trangCapNhatHeThong.jsp" />
+		<put-attribute name="footer" value="/page/footer.jsp" />
+	</definition>
+	<definition name="TrangAboutUs" template="/template/template_AboutUs.jsp">
+		<put-attribute name="title" value="Contact Us" />
+		<put-attribute name="header" value="/page/header.jsp" />
+		<put-attribute name="left" value="/page/left_AboutUs.jsp" />
+		<put-attribute name="content" value="/module/trangAboutUs.jsp" />
+		<put-attribute name="footer" value="/page/footer.jsp" />
+	</definition>
+
+	<definition name="TrangOurPartners" extends="TrangAboutUs">
+		<put-attribute name="title" value="Our Partners" />
+		<put-attribute name="content" value="/module/trangOurPartners.jsp" />
+	</definition>
+	<definition name="TrangProjectStaff" extends="TrangAboutUs">
+		<put-attribute name="title" value="Project Staff" />
+		<put-attribute name="content" value="/module/trangProjectStaff.jsp" />
+	</definition>
+	<!-- trang staff-->
+	<definition name="trangStaff_AccordingProject" extends="TrangAboutUs">
+        <put-attribute name="content" value="/admin/staff_projectstaff.jsp"/>    
+    </definition>
+	<definition name="TrangPhotoAlbums" template="/template/template_PhotoAlbums.jsp">
+		<put-attribute name="title" value="Photo Albums" />
+		<put-attribute name="header" value="/page/header.jsp" />
+		<put-attribute name="left" value="/page/left_PhotoAlbums.jsp" />
+		<put-attribute name="content" value="/module/trangPhotoAlbums.jsp" />
+		<put-attribute name="footer" value="/page/footer.jsp" />
+	</definition>
+	<definition name="TrangPublications" extends="TrangPortfolio">
+		<put-attribute name="title" value="Publications" />
+		<put-attribute name="left" value="/page/left_Publications.jsp" />
+		<put-attribute name="content" value="/module/trangPublications.jsp" />
+	</definition>
+	<definition name="TrangWorkPlan" extends="TrangPortfolio">
+		<put-attribute name="title" value="Workplan" />
+		<put-attribute name="left" value="/page/left_WorkPlan.jsp" />
+		<put-attribute name="content" value="/module/trangWorkPlan.jsp" />
+	</definition>
+	<!-- <definition name="TrangPredictions" extends="TrangPortfolio">
+		<put-attribute name="title" value="Predictions" />
+		<put-attribute name="left" value="/page/left_Predictions.jsp" />
+		<put-attribute name="content" value="/module/trangPredictions.jsp" />
+	</definition> -->
+	<definition name="TrangHighlights" extends="TrangPortfolio">
+		<put-attribute name="title" value="Highlights" />
+		<put-attribute name="left" value="/page/left_Highlights.jsp" />
+		<put-attribute name="content" value="/module/trangHighlights.jsp" />
+	</definition>
+	<definition name="TrangProject" extends="TrangPortfolio">
+		<put-attribute name="title" value="Project" />
+		<put-attribute name="left" value="/page/left_Project.jsp" />
+		<put-attribute name="content" value="/module/trangProject.jsp" />
+	</definition>
+	<definition name="XemNoiDungHighlights" extends="TrangPortfolio">
+		<put-attribute name="title" value="Highlights" />
+		<put-attribute name="left" value="/page/left_Highlights.jsp" />
+		<put-attribute name="content" value="/module/trangHighlights_xemnoidung.jsp" />
+	</definition>
+	<definition name="XemNoiDungEvents" extends="TrangPortfolio">
+		<put-attribute name="title" value="Events" />
+		<put-attribute name="left" value="/page/left_Events.jsp" />
+		<put-attribute name="content" value="/module/trangEvents_xemnoidung.jsp" />
+	</definition>
+	<definition name="XemNoiDungProject" extends="TrangPortfolio">
+		<put-attribute name="title" value="Project" />
+		<put-attribute name="left" value="/page/left_Project.jsp" />
+		<put-attribute name="content" value="/module/trangProject_xemnoidung.jsp" />
+	</definition>
+	<definition name="XemNoiDungPublications" extends="TrangPortfolio">
+		<put-attribute name="title" value="Publications" />
+		<put-attribute name="left" value="/page/left_Publications.jsp" />
+		<put-attribute name="content" value="/module/trangPublications_xemnoidung.jsp" />
+	</definition>
+	
+	
+	<!-- quanly highlights dau tien-->
+ 	<definition name="MasterPageQuanLy" template="/admin/template/quanly_template.jsp">
+	    <put-attribute name="menu" value="/admin/template/menu.jsp"/>  
+	    <put-attribute name="content" value="/admin/quanly_trangchu.jsp"/>      
+    </definition>
+    <definition name="trangHighlights_ThemTin" extends="MasterPageQuanLy">
+        <put-attribute name="content" value="/admin/highlights_themtin.jsp"/>    
+    </definition>
+    <definition name="trangHighlights_SuaTin" extends="MasterPageQuanLy">
+        <put-attribute name="content" value="/admin/highlights_suatin.jsp"/>    
+    </definition>
+    
+   <!--  quan ly project -->
+	<definition name="Project_trangQuanLy" extends="MasterPageQuanLy">
+	    <put-attribute name="content" value="/admin/project_quanly.jsp"/>      
+    </definition>
+	<definition name="trangProject_ThemTin" extends="MasterPageQuanLy">
+        <put-attribute name="content" value="/admin/project_themtin.jsp"/>    
+    </definition>
+	<definition name="trangProject_SuaTin" extends="MasterPageQuanLy">
+        <put-attribute name="content" value="/admin/project_suatin.jsp"/>    
+    </definition>
+    
+    <!--  quan ly publication -->
+    <definition name="Publications_trangQuanLy" extends="MasterPageQuanLy">
+	    <put-attribute name="content" value="/admin/publications_quanly.jsp"/>      
+    </definition>
+    <definition name="trangPublications_ThemTin" extends="MasterPageQuanLy">
+        <put-attribute name="content" value="/admin/publications_themtin.jsp"/>    
+    </definition>
+	<definition name="trangPublications_SuaTin" extends="MasterPageQuanLy">
+        <put-attribute name="content" value="/admin/publications_suatin.jsp"/>    
+    </definition>
+    
+    <!-- quanly events-->
+    <definition name="Events_trangQuanLy" extends="MasterPageQuanLy">
+        <put-attribute name="content" value="/admin/events_quanly.jsp"/>    
+    </definition>
+    <definition name="trangEvents_ThemTin" extends="MasterPageQuanLy">
+        <put-attribute name="content" value="/admin/events_themtin.jsp"/>    
+    </definition>
+    <definition name="trangEvents_SuaTin" extends="MasterPageQuanLy">
+        <put-attribute name="content" value="/admin/events_suatin.jsp"/>    
+    </definition>
+    
+    <!-- quanly work plan-->
+    <definition name="Workplan_trangQuanLy" extends="MasterPageQuanLy">
+        <put-attribute name="content" value="/admin/workplan_quanly.jsp"/>    
+    </definition>
+    <definition name="trangWorkplan_ThemTin" extends="MasterPageQuanLy">
+        <put-attribute name="content" value="/admin/workplan_themtin.jsp"/>    
+    </definition>
+    <definition name="trangWorkplan_SuaTin" extends="MasterPageQuanLy">
+        <put-attribute name="content" value="/admin/workplan_suatin.jsp"/>    
+    </definition>
+    
+     <!-- quanly about us-->
+    <definition name="AboutUs" extends="MasterPageQuanLy">
+        <put-attribute name="content" value="/admin/aboutus_edit.jsp"/>    
+    </definition>
+    <definition name="ContactUs" extends="MasterPageQuanLy">
+        <put-attribute name="content" value="/admin/contactus_edit.jsp"/>    
+    </definition>
+    <definition name="JoinUs" extends="MasterPageQuanLy">
+        <put-attribute name="content" value="/admin/joinus_edit.jsp"/>    
+    </definition>
+    
+     <!-- quanly our partners-->
+    <definition name="OurPartners" extends="MasterPageQuanLy">
+        <put-attribute name="content" value="/admin/partners_quanly.jsp"/>    
+    </definition>
+    <definition name="trangOurPartners_ThemPartners" extends="MasterPageQuanLy">
+        <put-attribute name="content" value="/admin/partners_themtin.jsp"/>    
+    </definition>
+     <definition name="trangOurPartners_SuaPartners" extends="MasterPageQuanLy">
+        <put-attribute name="content" value="/admin/partners_suatin.jsp"/>    
+    </definition>
+    
+     <!-- quanly our staff-->
+    <definition name="OurStaff" extends="MasterPageQuanLy">
+        <put-attribute name="content" value="/admin/staff_quanly.jsp"/>    
+    </definition>
+    <definition name="trangStaff_ThemStaff" extends="MasterPageQuanLy">
+        <put-attribute name="content" value="/admin/staff_themstaff.jsp"/>    
+    </definition>
+    <definition name="trangStaff_EditStaff" extends="MasterPageQuanLy">
+        <put-attribute name="content" value="/admin/staff_editstaff.jsp"/>    
+    </definition>
+    
+    <!-- quanly Banner -->
+     <definition name="QuanLyBanner" extends="MasterPageQuanLy">
+ 	       <put-attribute name="content" value="/admin/quanly_banner.jsp"/>      
+    </definition>
+    
+     <!-- quanly Gallery -->
+    <definition name="QuanLyGallery" extends="MasterPageQuanLy">
+ 	       <!-- <put-attribute name="content" value="/admin/temp.jsp"/>  -->     
+ 	       <put-attribute name="content" value="/admin/quanly_gallery.jsp"/>      
+    </definition>
+    
+   <!--  quan ly Admin -->
+   <definition name="trangAdmin_EditAccount" extends="MasterPageQuanLy">
+ 	       <put-attribute name="content" value="/admin/quanly_admin.jsp"/>      
+    </definition>
+</tiles-definitions>

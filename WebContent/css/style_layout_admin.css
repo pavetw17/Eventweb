@@ -1,0 +1,306 @@
+ /*==========================Login Admin============================*/
+ 
+ body {
+	margin: 0;
+	padding: 0;
+	background-color: #577166;;
+	font-size: 19px;
+	font-family: Calibri;
+	color: white;
+ }
+ 
+ #background 
+{ 	
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1007px;
+	 height: 655px; 
+	 overflow: hidden;
+	 z-index:0;
+} 
+
+.header{
+	text-align: center;
+	color: #fff;
+	width: 500px;
+	margin-left: auto ;
+    margin-right: auto ;
+}
+
+.nCompany {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.iCompany {
+	font-size: 15px;
+	padding: 16px;
+	color: red;
+	font-weight: 700;
+	background: white;
+	
+}
+
+
+ #MainBG 
+{	-webkit-border-radius: 22px;
+	-moz-border-radius: 22px;
+	 border-radius: 22px;
+	 left: 259px; 
+	 top: 133px; 
+	 position: absolute; 
+	 width: 489px;
+	 height: 319px;
+	 background-color: #143139;
+	/*  background:url(../images/admin1/MainBG.png) no-repeat; */
+	 z-index:1;
+} 
+
+ #BottonDivider 
+{ 
+	 left: 44px; 
+	 top: 428px; 
+	 position: absolute; 
+	 width: 882px;
+	 height: 355px;
+	 background:url(../images/admin1/BottonDivider.png) no-repeat;
+	 z-index:2;
+} 
+
+ #TitleBG 
+{ 
+	 left: 245px; 
+	 top: 142px; 
+	 position: absolute; 
+	 width: 257px;
+	 height: 66px;
+	 background:url(../images/admin1/TitleBG.png) no-repeat;
+	 z-index:3;
+} 
+
+ #Username 
+{ 
+	 left: 283px; 
+	 top: 244px; 
+	 position: absolute; 
+	 width: 71px;
+	 height: 11px;
+	 z-index:4;
+} 
+
+ #Usernameinput 
+{ 
+	 left: 371px; 
+	 top: 236px; 
+	 position: absolute; 
+	 width: 332px;
+	 height: 29px;
+	 z-index:5;
+} 
+
+ #Password 
+{ 
+	 left: 283px; 
+	 top: 294px; 
+	 position: absolute; 
+	 width: 65px;
+	 height: 12px;
+	 z-index:6;
+} 
+
+ #Passwordinput 
+{ 
+	 left: 371px; 
+	 top: 287px; 
+	 position: absolute; 
+	 width: 332px;
+	 height: 29px;
+	 z-index:7;
+} 
+
+#Shadow 
+{ 
+	 left: 252px; 
+	 top: 196px; 
+	 position: absolute; 
+	 width: 10px;
+	 height: 7px;
+	 background:url(../images/admin1/Shadow.png) no-repeat;
+	 z-index:8;
+} 
+
+ #MemberLogin 
+{ 
+	 left: 282px; 
+	 top: 149px; 
+	 position: absolute; 
+	 width: 201px;
+	 height: 29px;
+	 background:url(../images/admin1/MemberLogin.png) no-repeat;
+	 z-index:9;
+} 
+
+ #Enteryourusernameand 
+{ 
+	 left: 283px; 
+	 top: 179px; 
+	 position: absolute; 
+	 width: 204px;
+	 height: 13px;
+	 background:url(../images/admin1/Enteryourusernameand.png) no-repeat;
+	 z-index:10;
+} 
+
+ #LockIcon 
+{ 
+	 left: 832px; 
+	 top: 458px; 
+	 position: absolute; 
+	 width: 122px;
+	 height: 119px;
+	 background:url(../images/admin1/LockIcon.png) no-repeat;
+	 z-index:11;
+} 
+
+ #Loginbutton 
+{ 
+	 left: 552px; 
+	 top: 352px; 
+	 position: absolute; 
+	 width: 100px;
+	 height: 28px;
+	 z-index:12;
+} 
+
+ #Groupbg2 
+{ 
+	 left: 621px; 
+	 top: 104px; 
+	 position: absolute; 
+	 width: 97px;
+	 height: 71px;
+	 background:url(../images/admin1/Groupbg2.png) no-repeat;
+	 z-index:13;
+} 
+
+ #Groupbg1 
+{ 
+	 left: 626px; 
+	 top: 109px; 
+	 position: absolute; 
+	 width: 85px;
+	 height: 60px;
+	 background:url(../images/admin1/Groupbg1.png) no-repeat;
+	 z-index:14;
+} 
+
+ #GroupIcon 
+{ 
+	 left: 645px; 
+	 top: 117px; 
+	 position: absolute; 
+	 width: 48px;
+	 height: 42px;
+	 background:url(../images/admin1/GroupIcon.png) no-repeat;
+	 z-index:15;
+} 
+
+.textbox { 
+    border: 1px solid #848484; 
+    -webkit-border-radius: 30px; 
+    -moz-border-radius: 30px; 
+    border-radius: 30px; 
+    outline:0; 
+    height:25px; 
+    width: 275px; 
+    padding-left:10px; 
+    padding-right:10px; 
+  } 
+  
+	.textbox:focus { 
+	    background-color: #f5e4c0; 
+	}
+
+.myButton {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #44c767), color-stop(1, #5cbf2a));
+	background:-moz-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:-webkit-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:-o-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:-ms-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#44c767', endColorstr='#5cbf2a',GradientType=0);
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:17px;
+	font-weight:bold;
+	padding:4px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+	.myButton:hover {
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5cbf2a), color-stop(1, #44c767));
+		background:-moz-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+		background:-webkit-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+		background:-o-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+		background:-ms-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+		background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cbf2a', endColorstr='#44c767',GradientType=0);
+		background-color:#5cbf2a;
+	}
+	.myButton:active {
+		position:relative;
+		top:1px;
+	}
+	 
+/* --------------------------------ForgotPass start------------------------ */
+#ForgotPass{
+	left: 284px;
+	top: 340px;
+	position: absolute;
+	width: 332px;
+	height: 29px;
+	z-index: 7;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:HOVER {
+	color: #28E5D2;
+}
+
+
+#MainForgotPass
+{	-webkit-border-radius: 22px;
+	-moz-border-radius: 22px;
+	 border-radius: 22px;
+	 		 margin-left: auto;
+   			 margin-right: auto;
+   			 margin-top : 100px;
+   	 width: 50%; 
+	 /*  top: 133px;  */
+	 /*  position: absolute;  */
+	 /* width: 489px; */
+	 height: 250px;
+	 background-color: #143139;
+	 /*  background:url(../images/admin1/MainBG.png) no-repeat; */
+	 z-index:1;
+} 
+
+#divtrong{
+	padding: 30 30 30 30;
+}
+
+/* --------------------------------ForgotPass end--------------------------- */
